@@ -1,4 +1,4 @@
-# RSafe: Incentivizing Proactive Reasoning to Build Effective and Robust LLM Safeguards
+# RSafe: Incentivizing Proactive Reasoning to Build Effective and Robust LLM Safeguards [NeurIPS 2025]
 
 <!-- This repository contains the implementation for **RSafe**, an adaptive reasoning-based safeguard framework that enhances the safety alignment of large language models (LLMs) through **guided reasoning** and **reinforcement learning (RL)**. RSafe improves out-of-distribution generalization and provides interpretable, step-by-step safety assessments on both prompts and responses. -->
 
@@ -10,6 +10,8 @@ Large Language Models (LLMs) remain vulnerable to producing harmful or policy-vi
 - Applying **reinforcement learning** to internalize safety paths.
 - Supporting **dual-stage moderation** (prompt-level and response-level).
 - Reducing dependency on large-scale labeled data. -->
+
+![intro](intro.png)
 
 ## 🚀 Getting Started
 
