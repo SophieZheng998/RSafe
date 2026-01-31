@@ -13,6 +13,8 @@ Large Language Models (LLMs) remain vulnerable to producing harmful or policy-vi
 
 ![intro](intro.png)
 
+RSafe, an adaptive reasoning-based safeguard designed to provide robust and interpretable safety moderation for Large Language Models (LLMs). RSafe operates through two principal stages: Guided Reasoning and Reinforced Alignment. During the first stage, it analyzes potential safety risks through policy-guided, step-by-step reasoning to internalize safety principles. In the second stage, rule-based reinforcement learning (RL) is employed to optimize these reasoning paths, ensuring they align with accurate safety predictions. Specifically, RSafe bridges the gap in out-of-distribution generalization, enabling effective protection against emerging harmful categories and jailbreak attacks while providing human-readable explanations for its safety judgments. [Read our paper](https://arxiv.org/pdf/2506.07736)
+
 ## 🚀 Getting Started
 
 ### 1. Build the Environment
